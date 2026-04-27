@@ -1,0 +1,19 @@
+# Tree Snapshot
+Generated at: 2026-04-27 10:02:14 UTC
+
+.
+./.env.example
+./README.md
+./docs
+./docs/code_explanation.md
+./docs/round_notes.md
+./docs/tree_snapshot.txt
+./init_backup.sh
+./inputs
+./inputs/sample_idea.txt
+./main.py
+./outputs
+./outputs/.gitkeep
+./requirements.txt
+./skills
+./skills/novel_outline.md

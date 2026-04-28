@@ -63,3 +63,9 @@ bash init_backup.sh
 
 - `docs/tree_snapshot.txt`
 
+
+## 项目进度（更新到 Round 1）
+
+- **Round 0（已完成）**：仓库骨架完成。
+- **Round 1（已完成）**：小说大纲 skill 完成（`skills/novel_outline.md` 已从占位模板升级为可用版本）。
+- **下一步（Round 2）**：接入 API，开始实现从输入到模型输出的脚本流程。

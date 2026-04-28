@@ -63,9 +63,38 @@ bash init_backup.sh
 
 - `docs/tree_snapshot.txt`
 
-
 ## 项目进度（更新到 Round 1）
 
 - **Round 0（已完成）**：仓库骨架完成。
 - **Round 1（已完成）**：小说大纲 skill 完成（`skills/novel_outline.md` 已从占位模板升级为可用版本）。
 - **下一步（Round 2）**：接入 API，开始实现从输入到模型输出的脚本流程。
+
+## Round 2 使用说明（最小 API 调用）
+
+1. 安装依赖：
+
+```bash
+pip3 install -r requirements.txt
+```
+
+2. 复制配置文件：
+
+```bash
+cp .env.example .env
+```
+
+3. 编辑 `.env`：
+
+- 填写 `OPENAI_API_KEY`
+- 视情况填写 `OPENAI_BASE_URL`（聚合平台需要，OpenAI 官方可留空）
+- 填写 `OPENAI_MODEL`
+
+4. 运行程序：
+
+```bash
+python3 main.py
+```
+
+5. 在终端输入小说创意，查看模型返回结果。
+
+> 说明：Round 2 只把结果打印到终端，暂时不保存到文件（文件保存将在 Round 3 处理）。
